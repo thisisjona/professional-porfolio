@@ -1,3 +1,6 @@
 .project{
 height: 60% !important;
-};
+}
+.underlined{
+    text-decoration: underline;
+}
