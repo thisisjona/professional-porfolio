@@ -36,13 +36,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#about-me">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -50,12 +50,12 @@
       </nav>
       <!--End navbar-->
       <!--Begin hero-->
-      <div class="bg-secondary">
+      <div class="bg-secondary" id="about-me">
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
               <img
-                class="mx-auto d-block w-75"
+                class="my-2 mx-auto d-block w-75 rounded"
                 src="./assets/images/hero-img.jpeg"
                 alt="Jonathan's dark silhouette against a sunset, greeting with a peace sign"
               />
@@ -63,6 +63,14 @@
             <div class="col-lg-4">
               <h2>Discovering</h2>
               <h2>Web Development</h2>
+              <p>Welcome to my coding journey!</p>
+              <p>I present to you a collection of projects worked on during the December 2021 cohort of the UT Austin/Trilogy Bootcamp.</p>
+              <p>This program has been as rewarding as it has been challenging.</p>
+              <p>Check back periodically as the project list continues to grow!</p>
+              <p>Cheers!</p>
+              <p>-Jonathan Rivera</p>
+
+
             </div>
           </div>
         </div>
@@ -72,83 +80,133 @@
     <div class="b-example-divider"></div>
     <main>
       <!--Begin Portfolio Section-->
-      <div class="bg-dark pt-10">
+      <div class="bg-dark pt-10" id="portfolio">
         <div class="container">
-          <div class="row text-light">
-            <div class="col-lg-6">
-              <img
+          <div class="row text-light py-4">
+            <h2 class="text-center text-secondary">Portfolio</h2>
+          </div>
+        <!--Row Start-->
+          <div class="row text-dark">
+            <div class="col-lg-12">
+<!--card start-->
+              <div class="card flex-md-row mb-4 shadow-sm h-md-250 bg-secondary">
+                <div class="card-body align-items-start d-flex flex-column">
+                  <h3>Phat News!</h3>
+                  <p>Technologies Used:</p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS/Bulma</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <a href="" class="text-warning">Visit Project!</a>
+                </div>
+                <img
                 src="./assets/images/news.svg"
                 alt=""
-                class="img-fluid pt-3 w-75 pb-3"
+                class="card-img-right img-fluid pt-3 w-50 h-50 pb-3"
               />
-            </div>
-            <div class="col-lg-6">
-              <h3>Phat News!</h3>
+              </div>
+
+<!--card end-->
             </div>
           </div>
           <!--image/proj info/image/proj info-->
-          <div class="row text-light">
-            <div class="col-lg-3">
-              <img
-                src="./assets/images/character-select.svg"
-                alt="two humans selecting animal characters from a screen"
-                class="img-fluid pt-3 w-75 pb-3"
-              />
+           <!--Experimental card start-->
+          <div class="row text-dark">
+            <div class="col-lg-6">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250 bg-secondary">
+                  <div class="card-body align-items-start d-flex flex-column">
+                              <h3>Robot Gladiators</h3>
+                              <p>Technologies Used:</p>
+                              <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                              </ul>
+                              <a href="" class="text-warning">Visit Project!</a>
+                    </div>
+                      <img
+                        src="./assets/images/character-select.svg"
+                        alt="Avatars looking at diferent characters on a screen"
+                        class="card-img-left img-fluid pt-3 w-50 h-50 pb-3"/>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250 bg-secondary">
+                  <div class="card-body align-items-start d-flex flex-column">
+                              <h3>Run Buddy</h3>
+                              <p>Technologies Used:</p>
+                              <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                              </ul>
+                              <a href="" class="text-warning">Visit Project!</a>
+                    </div>
+                      <img
+                        src="./assets/images/runner.svg"
+                        alt="Avatar jogging through trees adjajent to an image of a stats sheet"
+                        class="card-img-left img-fluid pt-3 w-50 h-50 pb-3"/>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-3">
-              <h4>Robot Gladiators</h4>
-            </div>
-
-            <div class="col-lg-3">
-              <img
-                src="./assets/images/runner.svg"
-                alt="human runner side by side to a graphics sheet with stats"
-                class="img-fluid pt-3 w-75 pb-3"
-              />
-            </div>
-            <div class="col-lg-3">
-              <h4>Run Buddy</h4>
-            </div>
+ <!-- card end-->
+  <!-- card start-->
+  <div class="row text-dark">
+    <div class="col-lg-6">
+      <div class="card flex-md-row mb-4 shadow-sm h-md-250 bg-secondary">
+        <div class="card-body align-items-start d-flex flex-column">
+                    <h3>Taskinator</h3>
+                    <p>Technologies Used:</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                    </ul>
+                    <a href="" class="text-warning">Visit Project!</a>
           </div>
+            <img
+              src="./assets/images/tasks.svg"
+              alt="Scaled avatar standing next to a laptop with a displayed task list"
+              class="card-img-left img-fluid pt-3 w-50 h-50 pb-3"/>
+      </div>
+    </div>
 
-          <div class="row text-light">
-            <div class="col-lg-3">
-              <img
-                src="./assets/images/tasks.svg"
-                alt=""
-                class="img-fluid pt-3 w-75 pb-3"
-              />
-            </div>
-            <div class="col-lg-3">
-              <h4>Taskinator</h4>
-            </div>
-
-            <div class="col-lg-3">
-              <img
-                src="./assets/images/readme.svg"
-                alt=""
-                class="img-fluid pt-3 w-75 pb-3"
-              />
-            </div>
-            <div class="col-lg-3">
-              <h4>ReadMe Generator</h4>
-            </div>
+    <div class="col-lg-6">
+      <div class="card flex-md-row mb-4 shadow-sm h-md-250 bg-secondary">
+        <div class="card-body align-items-start d-flex flex-column">
+                    <h3>ReadMe Generator</h3>
+                    <p>Technologies Used:</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                    </ul>
+                    <a href="" class="text-warning">Visit Project!</a>
           </div>
+            <img
+              src="./assets/images/readme.svg"
+              alt="Scaled avatar standing next to a laptop with a displayed task list"
+              class="card-img-left img-fluid w-50 h-50"/>
+      </div>
+    </div>
+    </div>
+<!--experimental card end-->
+        
         </div>
       </div>
       <!--End Portfolio Section-->
       <!--Begin Contact Section-->
-<div class="bg-secondary pt-10">
+<div class="bg-secondary pt-10" id="contact">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 text-center">
         <h4>Contact Me</h4>
       </div>
       <div class="col-6">
         <ul>
-          <li><a></li>
-          <li>GitHub</li>
-          <li>Email</li>
+          <li><a href="#" class="text-warning">LinkedIn</a></li>
+          <li><a href="#" class="text-warning">E-mail</a></li>
+          <li><a href="#" class="text-warning">Twitter</a></li>
         </ul>
       </div>
     </div>
